@@ -1,0 +1,12 @@
+What is Flowchart?
+
+* Diagramatic representation illustrting a solution to a given problem.
+
+* Allows you to break down any process into smaller steps and display them in a visually pleasing way.
+
+--> Advantages
+
+	1. Debugging
+	2. Language independent
+	3. Breakdown the process into smaller steps
+	4. Amazing documentation
