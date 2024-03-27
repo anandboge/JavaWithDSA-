@@ -1,0 +1,55 @@
+Problem Description: You are given with an input number N, then you have to print the given
+pattern corresponding to that number N.
+For example if N=4
+Pattern output : 4444
+ 4444
+ 4444
+ 4444
+
+*****
+
+How to approach?
+1. Take N as input from the user.
+2. Figure out the number of rows, (which is N here) and run a loop for that.
+3. Now, figure out number of columns to be printed in ith row or generic row (which is the
+N here) and run a loop for that within this.
+4. Now, figure out “What to print?” in a particular (row, column). It can depend on the
+column number, row number or N which is N here.
+Pseudo code for the given problem:
+input=N
+i=1
+While i is less than or equal to N:
+ j=1
+ While j is less than or equal to N:
+ print(N)
+ Increment j by 1
+ Increment i by 1
+ Add a new line here
+❏ Let us dry run the Code for N=4
+● i=2(<=4)
+➔ j=1 (<=4), so print 4.
+➔ j=2 (<=4), so print 4.
+➔ j=3 (<=4), so print 4.
+➔ j=4 (<=4), so print 4.
+➔ j=5(>4), move out of the inner loop with a new line.
+
+● i=3(<=4)
+➔ j=1 (<=4), so print 4.
+➔ j=2 (<=4), so print 4.
+➔ j=3 (<=4), so print 4.
+➔ j=4 (<=4), so print 4.
+➔ j=5(>4), move out of the inner loop with a new line.
+
+● i=4(<=4)
+➔ j=1 (<=4), so print 4.
+➔ j=2 (<=4), so print 4.
+➔ j=3 (<=4), so print 4.
+➔ j=4 (<=4), so print 4.
+➔ j=5(>4), move out of the inner loop with a new line.
+
+● i=5(>4), move out of the loop
+So , final output:
+4 4 4 4
+4 4 4 4
+4 4 4 4
+4 4 4 4
